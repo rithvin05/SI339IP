@@ -232,7 +232,7 @@ nav a.active {
 
 }
 
-.about-section:hover, .card:hover {
+.about-section:hover, .card:hover, .cloud:hover, .cloud:focus, .All:hover, .All:focus {
     transform: translateY(-15px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -557,6 +557,7 @@ form input[type="submit"]:active {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+
     }
 
    
