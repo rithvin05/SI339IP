@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance at UM</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Tiny5&family=Varela&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="teams.html" class="active">Teams</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        
+        <section class="hero">
+            <h1 tabindex="0" >Explore</h1>
+            <h2 tabindex="0" >click a cloud to view the associated teams!</h2>
+            <div class="circle one"></div>
+            <div class="circle two"></div>
+            <div class="circle three"></div>
+            <div class="circle four"></div>
+
+            <img  tabindex="0"  src="images/AllTeams.png" class="All" alt="cloud with label 'All Teams'">
+            <div class="cloud-container">
+            
+                <img  tabindex="0" src="images/HH.png" class="cloud" data-style="Hip-Hop" alt="cloud with label Hip Hop">
+                <img  tabindex="0" src="images/Contemp.png" class="cloud" data-style="contemporary" alt="cloud with label Contemporary">
+                <img  tabindex="0" src="images/BWF.png" class="cloud" data-style="fusion" alt="cloud with label Bollywood Fusion">
+                <img tabindex="0"  src="images/Kpop.png" class="cloud" data-style="kpop" alt="cloud with label K-pop">
+            </div>
+
+            <!-- Cards Section -->
+            
+            <div class="cards-section" id="cards-section">
+                <h2 id="infoclick" tabindex="0" >click for more info</h2>
+                <div class="cards-container" tabindex="0"  id="cards-container">
+                    <!-- Cards will be dynamically generated -->
+                </div>
+                <div class="button-container">
+                    <a href="teams.html">Back To Top</a>
+                </div>
+            </div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <div  tabindex="0" class="lightbox-content" tabindex="0" >
+                    <span  tabindex="0" class="lightbox-close">&times;</span>
+                    <div class="lightbox-body">
+                        <h3  tabindex="0" id="lightbox-title">Placeholder</h3>
+                        <p tabindex="0"  id="lightbox-description"></p>
+                        <p tabindex="0" >Follow them on instagram <a id="lightbox-insta" href="#">here!</a></p>
+                        <iframe  tabindex="0" id="lightbox-video" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
